@@ -3,7 +3,7 @@ import cv from "../assets/CV Faris Sikira English.pdf";
 
 export default function Header() {
     return (
-        <section className="relative min-h-screen flex flex-col justify-center items-center text-center text-white px-4 sm:px-6 overflow-hidden bg-black">
+        <section className="relative min-h-screen flex flex-col justify-center items-center text-center text-white px-4 sm:px-6 overflow-hidden bg-black pt-24 sm:pt-28 md:pt-32">
 
             <div className="absolute inset-0 opacity-30">
                 <div className="absolute top-0 left-0 right-0 h-[70%]"
@@ -60,7 +60,9 @@ export default function Header() {
                         <span className="text-blue-400">Creating efficient</span>,{" "}
                         <span className="text-blue-300">scalable,</span><span className="hidden xs:inline"> and</span>{" "}
                         <br className="hidden xs:block sm:hidden" />
-                        <span className="text-blue-400">visually engaging</span>
+                        <span className="text-blue-400 block sm:inline">
+                            visually engaging
+                        </span>
                         <br className="hidden sm:block" />
                         <span className="text-white">software solutions</span>
                         <span className="text-blue-500">.</span>
