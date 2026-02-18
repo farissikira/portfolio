@@ -1,8 +1,8 @@
 import { FaGithub, FaReact, FaNodeJs } from "react-icons/fa";
 import { SiTailwindcss, SiMysql } from "react-icons/si";
 
-import hairImg from "../assets/Project1Pic.jpg";
-import todoImg from "../assets/Project2Pic.jpg";
+import hairImg from "../assets/Project1Pic.JPG";
+import todoImg from "../assets/Project2Pic.JPG";
 import snakeImg from "../assets/ProjectsPic3.jpg";
 
 export default function Projects() {
