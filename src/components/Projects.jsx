@@ -94,7 +94,7 @@ export default function Projects() {
                     </a>
 
                     <a
-                        href="https://github.com/farissikira/to-do-app"
+                        href="https://github.com/farissikira/to-do"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group relative h-100 sm:h-112.5 md:h-125 lg:h-137.5 flex flex-col justify-between 
