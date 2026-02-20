@@ -1,4 +1,4 @@
-import { FaGithub, FaReact, FaNodeJs } from "react-icons/fa";
+import { FaGithub, FaReact, FaNodeJs, FaAppStore } from "react-icons/fa";
 import { SiTailwindcss, SiMysql } from "react-icons/si";
 
 import hairImg from "../assets/Project1Pic.JPG";
@@ -94,7 +94,7 @@ export default function Projects() {
                     </a>
 
                     <a
-                        href="https://github.com/farissikira/to-do"
+                        href="https://to-do-app-fzfa.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group relative h-100 sm:h-112.5 md:h-125 lg:h-137.5 flex flex-col justify-between 
@@ -154,9 +154,10 @@ export default function Projects() {
                         <div className="absolute top-3 sm:top-4 right-3 sm:right-4 flex items-center gap-1 sm:gap-2 
                             opacity-0 group-hover:opacity-100 transition-all duration-300 
                             bg-black/70 backdrop-blur-md px-2 sm:px-3 md:px-4 py-1 sm:py-2 rounded-full border border-white/30
-                            hover:bg-black/90 hover:border-cyan-400/50">
-                            <FaGithub className="text-white text-sm sm:text-base md:text-lg" />
-                            <span className="text-[10px] sm:text-xs md:text-sm font-semibold">View on GitHub</span>
+                            hover:bg-black/90 hover:border-blue-400/50">
+                            <FaAppStore className="text-white w-4 h-4 sm:w-5 sm:h-5" />
+                            <span className="text-white text-sm sm:text-base">View the app</span>
+
                         </div>
 
                         <div className="absolute bottom-0 left-0 right-0 h-1 bg-linear-to-r from-transparent via-cyan-500/50 to-transparent 
